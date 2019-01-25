@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'bones-of-the-tarrasque';
+  title = 'Bones of the Tarrasque';
+  subtitle = 'One-roll Town Generator'
+  credits = 'u/SidecarStories (reddit)'
 }
