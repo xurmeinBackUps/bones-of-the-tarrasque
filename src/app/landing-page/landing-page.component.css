@@ -1,3 +1,9 @@
+.splash {
+    background: url('../../assets/Locator_Grid.png') repeat;
+    height: 100vh;
+    margin: 0;
+}
+
 .app-title, .app-subtitle, .byline {
     position: relative;
 }

@@ -9,12 +9,14 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
 import { 
   MatButtonModule 
 } from '@angular/material/';
+import { OptionsFormComponent } from './components/options-form/options-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CanvasComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    OptionsFormComponent
   ],
   imports: [
     BrowserModule,
