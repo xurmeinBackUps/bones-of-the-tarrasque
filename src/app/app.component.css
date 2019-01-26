@@ -1,7 +1,45 @@
+.app-title, .app-subtitle, .byline {
+    position: relative;
+}
+
 .byline {
     font-family: 'Lora', serif;
 }
 
 .app-title, .app-subtitle {
-    font-family: 'Uncial Antiqua', cursive;
+    font-family: 'Uncial Antiqua', sans-serif;
+    width: fit-content;
+    margin: auto;
+}
+
+.app-subtitle {
+    font-weight: lighter;
+}
+
+.title-backing {
+    position: relative;
+    top: 6.67vh;
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    background-color: #00899B;
+    border: 0.3em ridge black;
+    padding: 0.1em;
+    margin: auto;
+}
+
+.terrarium{
+    size: fit-content;
+}
+
+.tarrasque {
+    position: relative;
+    margin-top: 2em;
+    margin-left: -1.25em;
+    top: 6.67vh;
+    max-width: 512px;
+    max-height: 512px;
+    min-width: 32px;
+    min-height: 32px;
+    width: 50vw;
 }

@@ -1,11 +1,17 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<header style="text-align:center">
-  <label class="byline">
-    <h1 class="app-title">{{ title }}</h1>
-    <h2 class="app-subtitle">{{ subtitle }}</h2>
-    by: {{ credits }}
-  </label>
-</header>
-
+<div style="text-align:center">
+  <header>
+    <div class="title-backing">
+      <label class="byline">
+        <h1 class="app-title">{{ title }}</h1>
+        <h2 class="app-subtitle">{{ subtitle }}</h2>
+        by: {{ credits }}
+      </label>
+    </div>
+  </header>
+  <div class="terrarium">
+    <img alt="Welcome" src="../assets/turtle.png" class="tarrasque">
+  </div>
+</div>
 
 <router-outlet></router-outlet>
