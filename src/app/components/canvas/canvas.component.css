@@ -1,4 +1,9 @@
 #generator-interface {
+    padding-top: 0.01em;
     height: 100vh;
-    background: #222433c5;
+    background: #1d013e;
+}
+
+.grid-holder {
+    background: white;
 }

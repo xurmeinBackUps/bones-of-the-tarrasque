@@ -7,7 +7,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CanvasComponent } from './components/canvas/canvas.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { 
-  MatButtonModule 
+  MatButtonModule,
+  MatGridListModule 
 } from '@angular/material/';
 import { OptionsFormComponent } from './components/options-form/options-form.component';
 
@@ -22,7 +23,9 @@ import { OptionsFormComponent } from './components/options-form/options-form.com
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatButtonModule
+    MatButtonModule,
+    MatGridListModule 
+
   ],
   providers: [],
   bootstrap: [AppComponent]
